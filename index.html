@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Corporate Bank</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h4><a href="/index.html">CORPORATE BANK</a></h4>
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <a class="nav__link" href="/contact us.html">Contact Us</a>
+                </li>
+
+                <li class="nav__item">
+                    <a class="nav__link nav__link--btn btn--show-modal" href="/customers.html">Transfer Money</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__title">
+            <h1>
+                When
+                <span class="highlight">banking</span>
+                meets<br />
+                <span class="highlight">minimalist</span>
+            </h1>
+            <marquee><h4>A simpler banking experience for a simpler life.</h4></marquee>
+            <img src="" class="header__img" />
+        </div>
+    </header>
+
+    <section class="section" id="section--1">
+        <div class="section__title">
+            <h2 class="section__description">Why to invest in Corporate Bank</h2>
+            <h3 class="section__header">
+                Everything you need in a modern bank and more.
+            </h3>
+        </div>
+
+        <div class="features">
+            <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-monitor"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Easy Loan Approvals</h5>
+
+            </div>
+
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-trending-up"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Watch your money grow</h5>
+
+            </div>
+            <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" alt="Plant" class="features__img lazy-img" />
+
+            <img src="img/card-lazy.jpg" data-src="img/card.jpg" alt="Credit card" class="features__img lazy-img" />
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-credit-card"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Free debit card included</h5>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="feature-item">
+            <img src="./images/icon-online.svg" alt="" />
+            <h1>Online Banking</h1>
+            <p>Our modern web and mobile<br />
+                applications allow you to keep<br />
+                track of your finances whereever<br />
+                you are in the world.</p>
+        </div>
+        <div class="feature-item">
+            <img src="./images/icon-budgeting.svg" alt="" />
+            <h1>Simple Budgeting</h1>
+            <p>See exactly where your money<br />
+                goes every month.Recieve<br />
+                notifications when you're close to<br />
+                hitting your limits.</p>
+            </p>
+        </div>
+
+        <div class="feature-item">
+            <img src="./images/icon-onboarding.svg" alt="" />
+            <h1>Fast Onboarding</h1>
+            <p>We don't do branches.Open your<br />
+                accound minutes online and start<br />
+                taking controll of your finances<br />
+                right away.</p>
+        </div>
+        <div class="feature-item">
+            <img src="./images/icon-api.svg" alt="" />
+            <h1>Open API</h1>
+            <p>Manage your savings, investments,<br />
+                pension and much more from one<br />
+                account.Tracking your money has<br />
+                never been easier.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3>© 2022. Made by <b>PIYUSH  GUPTA</b></h3>
+    </footer>
+
+    <script>
+        var preloader = document.getElementById("loading");
+        function loader() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+        });
+    </script>
+</body>
+
+</html>
